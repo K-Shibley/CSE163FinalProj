@@ -1,7 +1,8 @@
 """
 Kara Shibley and Griffin Reichmuth
 CSE 160 AC
-This final moooovement
+This file plots various sections of the data and runs a random forest
+regressor to predict county level movement. 
 """
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -91,29 +92,29 @@ fig, [[ax1, ax2, ax3], [ax4, ax5, ax6]] = \
 
 rec_retail_wa.plot(x='date', y=rec_retail, legend=True, label="WA", ax=ax1)
 rec_retail_us.plot(x='date', y=rec_retail, legend=True, label="US", ax=ax1)
-ax1.set_title('Recreation and Retail')
+ax1.set_title('Recreation and Retail Percent Change from Baseline')
 
 groc_pharm_wa.plot(x='date', y=groc_pharm, legend=True, label="WA", ax=ax2)
 groc_pharm_us.plot(x='date', y=groc_pharm, legend=True, label="US", ax=ax2)
-ax2.set_title('Grocery and Pharmacy')
+ax2.set_title('Grocery and Pharmacy Percent Change from Baseline')
 
 parks_wa.plot(x='date', y=parks, legend=True, label="WA", ax=ax3)
 parks_us.plot(x='date', y=parks, legend=True, label="US", ax=ax3)
-ax3.set_title('Parks')
+ax3.set_title('Parks Percent Change from Baseline')
 
 transit_wa.plot(x='date', y=transit, legend=True, label="WA", ax=ax4)
 transit_us.plot(x='date', y=transit, legend=True, label="US", ax=ax4)
-ax4.set_title('Transit')
+ax4.set_title('Transit Percent Change from Baseline')
 
 workplaces_wa.plot(x='date', y=workplaces, legend=True, label="WA", ax=ax5)
 workplaces_us.plot(x='date', y=workplaces, legend=True, label="US", ax=ax5)
-ax5.set_title('Workplace')
+ax5.set_title('Workplace Percent Change from Baseline')
 
 residential_wa.plot(x='date', y=residential, legend=True, label="WA", ax=ax6)
 residential_us.plot(x='date', y=residential, legend=True, label="US", ax=ax6)
-ax6.set_title('Low Access + Low Income: 10')
+ax6.set_title('Residential Percent Change from Baseline')
 
-plt.savefig("US vs. WA")
+plt.savefig("US vs. WA.png")
 
 # Set date as the index
 data['date'] = pd.to_datetime(data['date'])
