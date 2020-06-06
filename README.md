@@ -13,7 +13,7 @@ Kara Shibley + Griffin Reichmuth
     https://www.cdc.gov/nchs/data_access/urban_rural.htm#Data_Files_and_Documentation
 - ag data was compiled from different pdfs so download ag file from report package
 
-# For Python through Anaconda - How to install the Libraries Needed: 
+# How to install the Libraries Needed (Python through Anaconda): 
   - conda install pandas
   - conda install numpy
   - conda install scikit-learn
