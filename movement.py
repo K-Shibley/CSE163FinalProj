@@ -2,7 +2,7 @@
 Kara Shibley and Griffin Reichmuth
 CSE 160 AC
 This file plots various sections of the data and runs a random forest
-regressor to predict county level movement. 
+regressor to predict county level movement.
 """
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -141,4 +141,4 @@ labels_test = test_dates[rec_retail]
 rgr_predict = rgr.predict(features_test)
 rgr_error = abs(rgr_predict - labels_test)
 print(rgr_error)
-print(rgr_error .mean())
+print(rgr_error.mean())
