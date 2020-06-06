@@ -22,3 +22,7 @@ https://www.nass.usda.gov/Publications/AgCensus/2017/Full_Report/Volume_1,_Chapt
   - conda install matplotlib
   - conda install plotly
 
+# How to reproduce our resutls
+- first run data_wrangling.py 
+- then run Decision_tree_classifier.py
+- finally run movement.py
