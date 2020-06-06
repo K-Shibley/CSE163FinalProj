@@ -11,7 +11,7 @@ Kara Shibley + Griffin Reichmuth
     https://results.vote.wa.gov/results/20161108/Export.html
 - download csv of population based data from  
     https://www.cdc.gov/nchs/data_access/urban_rural.htm#Data_Files_and_Documentation
-- ag data was compiled from different pdfs so download ag file from report package or compile on your own with 
+- ag data was compiled from pdfs so download ag file from report package or compile on your own with 
 https://www.nass.usda.gov/Publications/AgCensus/2017/Full_Report/Volume_1,_Chapter_2_County_Level/Washington/ & https://www.nass.usda.gov/Publications/AgCensus/2017/Full_Report/Volume_1,_Chapter_2_County_Level/Washington/st53_2_0001_0001.pdf
 
 
