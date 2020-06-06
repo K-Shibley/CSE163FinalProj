@@ -2,7 +2,7 @@
 Kara Shibley + Griffin Reichmuth 
 
 Libraries Needed: 
-  pandas
-  Scikit-Learn
-  matplotlib
-  plotly
+  - pandas
+  - Scikit-Learn
+  - matplotlib
+  - plotly
